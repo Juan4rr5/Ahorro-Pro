@@ -23,6 +23,7 @@ Una aplicación web para ahorrar dinero de forma sencilla y visual.
 
 ## v1.1 (25/07/2026)
 - Guardado automático
+- Icono principal
 
 ---
 # 📂 Archivos
