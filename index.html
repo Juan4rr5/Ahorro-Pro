@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ahorro Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="emoji">💻</div>
+
+    <h1 id="nombreProyecto">Mi nuevo PC</h1>
+
+    <div id="dinero">0€</div>
+
+    <div class="barra">
+
+        <div class="progreso" id="progreso"></div>
+
+        <div class="marca marca1000">
+            <span>1000€</span>
+        </div>
+
+        <div class="marca marca1500">
+            <span>1500€</span>
+        </div>
+
+    </div>
+
+    <div id="porcentaje">
+        20%
+    </div>
+
+    <p id="progresoTexto">
+        ⏳ Te faltan 700 € para el objetivo mínimo.
+    </p>
+
+    <div class="botones">
+
+        <button onclick="sumar(10)">+10 €</button>
+        <button onclick="sumar(50)">+50 €</button>
+        <button onclick="sumar(100)">+100 €</button>
+        <button onclick="sumar(500)">+500 €</button>
+
+    </div>
+
+    <div class="botones">
+
+        <button class="rojo" onclick="restar(10)">-10 €</button>
+        <button class="rojo" onclick="restar(50)">-50 €</button>
+        <button class="rojo" onclick="restar(100)">-100 €</button>
+        <button class="rojo" onclick="restar(500)">-500 €</button>
+
+    </div>
+
+    <div id="mensaje">
+        🚀 Sigue ahorrando.
+    </div>
+
+    <button id="ajustes">
+        ⚙️ Ajustes
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
