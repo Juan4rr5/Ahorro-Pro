@@ -21,7 +21,7 @@ Una aplicación web para ahorrar dinero de forma sencilla y visual.
 - Barra de progreso.
 - Botones.
 
-## v1.1 (25/07/2026)
+## v1.1 (26/07/2026)
 - Guardado automático
 - Icono principal
 
