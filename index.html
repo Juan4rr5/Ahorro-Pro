@@ -17,9 +17,9 @@
 
 <div class="card">
 
-    <div class="emoji">💻</div>
+    <div class="emojiPrincipal" style="font-size:120px;">💻</div>
 
-    <h1 id="nombreProyecto">Mi nuevo PC</h1>
+    <h1 id="tituloProyecto">Mi nuevo PC</h1>
 
     <div id="dinero">0€</div>
 
@@ -28,11 +28,11 @@
         <div class="progreso" id="progreso"></div>
 
         <div class="marca marca1000">
-            <span>1000€</span>
+            <span id="marcaMinima">1000€</span>
         </div>
 
         <div class="marca marca1500">
-            <span>1500€</span>
+            <span id="marcaIdeal">1500€</span>
         </div>
 
     </div>
@@ -67,9 +67,48 @@
         🚀 Sigue ahorrando.
     </div>
 
-    <button id="ajustes">
-        ⚙️ Ajustes
-    </button>
+ <button id="abrirAjustes">
+    ⚙️ Ajustes
+</button>
+
+</div>
+
+<!-- Ventana de ajustes -->
+<div id="popupAjustes" class="popup">
+
+    <div class="popup-contenido">
+
+        <h2>⚙️ Ajustes</h2>
+
+        <label>Nombre del proyecto</label>
+        <input type="text" id="nombreProyecto">
+
+       <label>Emoji</label>
+
+<div id="selectorEmojis">
+
+    <button class="emoji">💻</button>
+    <button class="emoji">🎮</button>
+    <button class="emoji">🚗</button>
+    <button class="emoji">🏠</button>
+
+    <button class="emoji">✈️</button>
+    <button class="emoji">📱</button>
+    <button class="emoji">💰</button>
+    <button class="emoji">🏆</button>
+
+</div>
+
+        <label>Objetivo mínimo (€)</label>
+        <input type="number" id="objetivoMinimo">
+
+        <label>Objetivo ideal (€)</label>
+        <input type="number" id="objetivoIdeal">
+
+        <button id="guardarAjustes">💾 Guardar</button>
+        <button id="cerrarAjustes">❌ Cerrar</button>
+
+    </div>
 
 </div>
 

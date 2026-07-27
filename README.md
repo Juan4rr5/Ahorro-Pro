@@ -25,6 +25,19 @@ Una aplicación web para ahorrar dinero de forma sencilla y visual.
 - Guardado automático
 - Icono principal
 
+## v1.2 (27/07/2026)
+- Popup de ajustes.
+- Abrir y cerrar ajustes.
+- Cambiar el nombre del proyecto.
+- Cambiar el emoji.
+- Selector de emojis con selección.
+- Cambiar el objetivo mínimo.
+- Cambiar el objetivo ideal.
+- Guardar todo en localStorage.
+- Cargar automáticamente los datos al abrir la web.
+- Actualizar la barra, el porcentaje y el texto sin recargar.
+- Recordar los valores en los campos de ajustes.
+
 ---
 # 📂 Archivos
 
